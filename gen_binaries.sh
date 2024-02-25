@@ -11,14 +11,10 @@ if [ -z  "$SPEC_DIR" ]; then
    exit 1
 fi
 
-if [ -d "$SPEC_DIR" ]; then 
-   rm -Rf $SPEC_DIR; 
-fi
-mkdir spec_dir
 
 CONFIG=riscv
 CONFIGFILE=${CONFIG}.cfg
-RUN="spike pk -c "
+RUN="time spike pk "
 CMD_FILE=commands.txt
 INPUT_TYPE=test
 

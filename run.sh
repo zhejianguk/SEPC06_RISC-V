@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET_RUN="spike pk -c"
+TARGET_RUN="time spike pk "
 INPUT_TYPE=test # THIS MUST BE ON LINE 4 for an external sed command to work!
                 # this allows us to externally set the INPUT_TYPE this script will execute
 
