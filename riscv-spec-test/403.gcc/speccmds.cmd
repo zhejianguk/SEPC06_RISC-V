@@ -6,8 +6,8 @@
 -E GDMSESSION ubuntu-xorg
 -E GNOME_DESKTOP_SESSION_ID this-is-deprecated
 -E GNOME_SHELL_SESSION_MODE ubuntu
--E GNOME_TERMINAL_SCREEN /org/gnome/Terminal/screen/40888169_0cca_4240_b800_22ebd3ad6fc5
--E GNOME_TERMINAL_SERVICE :1.115
+-E GNOME_TERMINAL_SCREEN /org/gnome/Terminal/screen/3700d218_8e03_4b9f_821c_82af0bf613d9
+-E GNOME_TERMINAL_SERVICE :1.99
 -E GPG_AGENT_INFO /run/user/1000/gnupg/S.gpg-agent:0:1
 -E GTK_IM_MODULE ibus
 -E GTK_MODULES gail:atk-bridge
@@ -41,7 +41,7 @@
 -E QT_ACCESSIBILITY 1
 -E QT_IM_MODULE ibus
 -E RISCV /home/zhe/Workspace/chipyard/scripts/riscv-tools-install
--E SESSION_MANAGER local/zhe-zenbook:@/tmp/.ICE-unix/2487,unix/zhe-zenbook:/tmp/.ICE-unix/2487
+-E SESSION_MANAGER local/zhe-zenbook:@/tmp/.ICE-unix/2387,unix/zhe-zenbook:/tmp/.ICE-unix/2387
 -E SHELL /bin/bash
 -E SPEC /home/zhe/Workspace/SPEC06_src
 -E SPECDB_PWD /home/zhe/Workspace/SPEC06_src
@@ -49,7 +49,7 @@
 -E SPEC_DIR /home/zhe/Workspace/SPEC06_src
 -E SSH_AGENT_LAUNCHER gnome-keyring
 -E SSH_AUTH_SOCK /run/user/1000/keyring/ssh
--E SYSTEMD_EXEC_PID 5080
+-E SYSTEMD_EXEC_PID 3908
 -E TERM xterm-256color
 -E USER zhe
 -E USERNAME zhe
